@@ -1,4 +1,4 @@
-package structs
+package perimeter
 
 import "math"
 
@@ -46,5 +46,5 @@ func (c Circle) Perimeter() float64 {
 }
 
 func (t Triangle) Perimeter() float64 {
-	return t.Base + t.Height + math.Sqrt(math.Pow(t.Base, 2) + math.Pow(t.Height, 2))
+	return t.Base + t.Height + math.Sqrt(math.Pow(t.Base, 2)+math.Pow(t.Height, 2))
 }

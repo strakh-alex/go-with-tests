@@ -1,3 +1,3 @@
-module structs
+module perimeter
 
 go 1.17
